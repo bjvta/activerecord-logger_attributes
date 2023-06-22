@@ -16,7 +16,6 @@ Gem::Specification.new do |spec|
     f.match(%r{^(test|spec|features)/})
   end
   spec.require_paths = ['lib']
-  spec.add_dependency 'activemodel-logger_attributes', '~> 0.1'
   spec.add_development_dependency "bundler"
   spec.add_development_dependency "rake"
   spec.add_development_dependency "rspec", "~> 3.0"
